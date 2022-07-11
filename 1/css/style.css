@@ -1,0 +1,186 @@
+*,::before, *::after {
+    box-sizing:border-box;
+}
+
+html {
+    height: 100%;
+}
+
+body{
+font-family: 'Manrope', sans-serif;
+margin: 0;
+height: 100%;
+}
+
+img{
+    display: block;
+}
+
+.main-page {
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+}
+
+/*HEADER*/
+
+.header{
+    display: flex;
+    align-items: center;
+    height: 73px;
+    border-bottom: 1px solid #e5e9c2;
+
+}
+
+.header-container {
+    width: 1110px;
+    margin: 0px auto;
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+margin-right: 40px;
+}
+
+.nav{
+    margin-top: -4px;
+
+    font-weight: bold;
+    font-style: 14px;
+    line-height: 1;
+    color:#18191F;
+}
+
+.nav-link {
+    color:#18191F;
+    text-decoration: none;
+    margin-right: 32px;
+}
+
+.nav-link:hover {
+    color:#8c30f5;
+}
+
+.nav-link:last-child {
+    margin-right: 0;
+}
+
+.appstore {
+    display: flex;
+margin-left: auto;
+}
+
+.appstore-item {
+    margin-left: 12px;
+}
+
+.appstore-item:first-child {
+    margin-left: 0;
+}
+
+/*HEADER*/
+
+.main {
+
+}
+
+.main-container {
+    display: flex;
+    width: 1110px;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 197px;
+    padding-bottom: 197px;
+    align-items: center;
+
+}
+
+.main-content {
+    width: 540px;
+    font-style: 18px;
+    color: #18191F;
+
+}
+
+.main-img {
+
+}
+
+.main-header {
+    font-weight: 800;
+    margin-top: 0;
+    margin-bottom: 16px;
+    font-size: 72px;
+    line-height: 1.36;
+    color: #18191F;
+}
+
+.main-text {
+    margin-bottom: 32px;
+}
+
+.main-text p {
+    margin-bottom: 15px;
+    font-size: 18px;
+    line-height: 1.78;
+
+}
+
+.button {
+    display: inline-block;
+    height:62px;
+    padding-left: 35px;
+    padding-right: 35px;
+    background: #8c30f5;
+    border-radius: 8px;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 62px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+}
+
+.button:hover {
+    opacity: 0.8;
+}
+
+
+/*FOOTER*/
+footer {
+    display: flex;
+    align-items: center;
+    background: #0B0d17;
+    height: 72px;
+    color: #d9dbE1;
+}
+
+.footer-container {
+    display: flex;
+    width: 1110px;
+    margin: 0px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.footer-copyright {
+    font-size: 14px;
+}
+
+
+.footer-social{
+display: flex;
+
+}
+
+.footer-socials-item {
+    margin-left: 16px;
+}
+
+
+
+/*FOOTER*/
